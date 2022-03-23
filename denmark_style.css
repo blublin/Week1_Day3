@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 400px;
+    height: 235px;
+}
+
+.right, .left {
+    background-color: red;
+    margin: 10px;
+}
+.left {
+    flex: 1;
+}
+.right {
+    flex: 2;
+}
+
+.top, .bottom {
+    height: 50%;
+    display: flex;
+}
