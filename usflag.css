@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1000px;
+    height: 525px;
+    background-color: black;
+}
+
+.background {
+    height: inherit;
+}
+
+.bars {
+    height: 7.692%;
+}
+
+.red {
+    background-color: red;
+}
+.white {
+    background-color: white;
+}
+.square {
+    width: 41%;
+    height: 53.7%;
+    position: relative;
+    top: -100%;
+    background-color: blue;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+}
+.row-5, .row-6 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.star {
+    color: white;
+    /* margin: 10px; */
+    font-size: 150%;
+    vertical-align: ;
+}
